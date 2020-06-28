@@ -6,8 +6,8 @@ Urobotは、ヨロイ島にいるウッウロボをPC上で再現してくれる
 Javaを動かすために必要なのでダウンロードする必要があります。\
 まだ自分のPCにJDKをダウンロードしていない方は以下のURLからダウンロードしてください。
 https://www.oracle.com/java/technologies/javase-downloads.html\
-\
-・forMac.commandの編集(任意/Macのみ)\
+ \
+・forMac.commandの編集(任意/Macのみ)\
 Javaプログラムは、コマンドプロンプトやターミナルでコマンドを打って起動する必要があります。しかし、そのコマンドを予め記述したcommandファイルを作成すれば、いちいちコマンドを打つことなくcommandファイルをダブルクリックするだけで実行することができます。(Windowsのbatファイルでも同じことができそうなのですが、やり方がわかりませんでした。)\
 ①forMac,commandを右クリック\
 ②「このアプリケーションで開く」→テキストエディット\
@@ -17,7 +17,8 @@ Javaプログラムは、コマンドプロンプトやターミナルでコマ�
 
 ## 実行方法(Win/MacでforMac.commandを編集しなかった場合)
 ①コマンドプロンプトやターミナルを開く\
-②cd [ファイルを保存した場所]/Urobot/app\
+②(Win)cd [ファイルを保存した場所]¥Urobot-master¥app\
+(Mac) cd [ファイルを保存した場所]/Urobot-master/app\
 ③java Urobot Items MixedItem ToMaterial\
 これで起動できると思います。
 
