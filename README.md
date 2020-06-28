@@ -9,7 +9,7 @@ https://www.oracle.com/java/technologies/javase-downloads.html\
  \
 ・forMac.commandの編集(任意/Macのみ)\
 Javaプログラムは、コマンドプロンプトやターミナルでコマンドを打って起動する必要があります。しかし、そのコマンドを予め記述したcommandファイルを作成すれば、いちいちコマンドを打つことなくcommandファイルをダブルクリックするだけで実行することができます。(Windowsのbatファイルでも同じことができそうなのですが、やり方がわかりませんでした。)\
-①forMac,commandを右クリック\
+①forMac.commandを右クリック\
 ②「このアプリケーションで開く」→テキストエディット\
 ③1行目の[ファイルを保存した場所]の部分を自分がダウンロードした場所に書き換える(「ダウンロード」フォルダであれば Downloads)
 ④変更内容を保存し、forMac.commandをダブルクリック\
